@@ -17,7 +17,7 @@ root.render(
 
         
         < Route path="/" element={<Main quotesDB={global.quotesDB} />} />
-        < Route path="/mod" element={<Main quotesDB={global.quotesDB} />} />
+        
         
 
       </Routes>

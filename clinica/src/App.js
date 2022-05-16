@@ -94,11 +94,11 @@ function App({quotesDB}) {
                       <div key={q.id} className="col-lg-12">
                         <ul>
                             <p >Mascota: {q.mascota}</p>
-                            <p >Mascota: {q.dueño}</p>
-                            <p >Mascota: {q.numero}</p>
-                            <p >Mascota: {q.fecha}</p>
-                            <p >Mascota: {q.hora}</p>
-                            <p >Mascota: {q.sintomas}</p>
+                            <p >Dueño: {q.dueño}</p>
+                            <p >Numero de contacto: {q.numero}</p>
+                            <p >Fecha: {q.fecha}</p>
+                            <p >Hora: {q.hora}</p>
+                            <p >Sintomas: {q.sintomas}</p>
                             
                             
                         </ul>
